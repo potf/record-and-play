@@ -1,0 +1,36 @@
+Running 'failedLogin' 23:25:00
+1. open on / OK 23:25:00
+2. setWindowSize on 1550x836 OK 23:25:00
+3. click on linkText=Sign in OK 23:25:00
+4. click on id=sign-in__email OK 23:25:01
+5. type on id=sign-in__email with value 1totomm@gmail.com OK 23:25:01
+6. click on id=sign-in__password OK 23:25:01
+7. type on id=sign-in__password with value !23 OK 23:25:01
+8. click on css=.form__button OK 23:25:01
+9. click on css=.alert__button OK 23:25:02
+10. click on css=body OK 23:25:02
+11. type on id=sign-in__email with value 2motomm@gmail.com OK 23:25:02
+12. click on id=sign-in__password OK 23:25:02
+13. type on id=sign-in__password with value !23 OK 23:25:02
+14. click on css=.form__button OK 23:25:03
+15. click on css=.alert__button OK 23:25:03
+16. mouseDownAt on css=body with value 503,274 OK 23:25:03
+17. mouseMoveAt on css=body with value 503,274 OK 23:25:03
+18. mouseUpAt on css=body with value 503,274 OK 23:25:03
+19. click on css=body OK 23:25:04
+20. type on id=sign-in__email with value 3foomm@gmail.com OK 23:25:04
+21. click on id=sign-in__password OK 23:25:04
+22. type on id=sign-in__password with value !23 OK 23:25:04
+23. click on css=.form__button OK 23:25:04
+24. click on css=.alert__button OK 23:25:04
+25. mouseDownAt on css=body with value 478,265 OK 23:25:05
+26. mouseMoveAt on css=body with value 478,265 OK 23:25:05
+27. mouseUpAt on css=body with value 478,265 OK 23:25:05
+28. click on css=body OK 23:25:05
+29. type on id=sign-in__email with value 4Test@gmail.com OK 23:25:05
+30. click on id=sign-in__password OK 23:25:06
+31. type on id=sign-in__password with value !23 OK 23:25:06
+32. click on css=.form__button OK 23:25:06
+33. click on css=.alert__button OK 23:25:06
+'failedLogin' completed successfully
+23:25:06
