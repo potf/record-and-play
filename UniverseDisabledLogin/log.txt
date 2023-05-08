@@ -1,0 +1,17 @@
+Running 'DisabledLogin' 23:33:31
+1. open on / OK23:33:31
+2. setWindowSize on 1550x836 OK23:33:31
+3. click on linkText=Sign in OK23:33:31
+4. click on id=sign-in__password OK23:33:32
+5. type on id=sign-in__password with value Asdf@1234 OK23:33:32
+6. click on css=.form__button OK23:33:32
+7. click on css=body OK23:33:32
+8. type on id=sign-in__password OK23:33:32
+9. click on id=sign-in__email OK23:33:32
+10. type on id=sign-in__email with value 1totomm@gmail.com OK23:33:33
+11. click on css=.form__button OK23:33:33
+12. click on id=sign-in__email OK23:33:33
+13. type on id=sign-in__email with value 1totomm@gmail.com OK23:33:33
+14. click on css=.form__button OK23:33:33
+'DisabledLogin' completed successfully
+23:33:34
