@@ -1,0 +1,134 @@
+{
+  "id": "c23f7f2e-3fab-460d-909e-6c02b0cbd3e5",
+  "version": "2.0",
+  "name": "Universe",
+  "url": "https://ta-java.devandqa.site",
+  "tests": [{
+    "id": "afc2ddb6-eb7a-4174-a30b-adf4fb836781",
+    "name": "SuccessfulLogin",
+    "commands": [{
+      "id": "152ee921-66ac-43cb-9cb1-0d2fb426312a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2ba7087-a223-439d-8bc6-f8cd16c5f210",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x836",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6db1ea9f-fc60-47d5-b749-8025de34e829",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.header__link--secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/sign-in')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28874e81-7fe7-4369-ac2f-ef09fdf8e8ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-in__email",
+      "targets": [
+        ["id=sign-in__email", "id"],
+        ["name=email", "name"],
+        ["css=#sign-in__email", "css:finder"],
+        ["xpath=//input[@id='sign-in__email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b8a2b38-1048-4a35-ba24-a0317bd7f917",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-in__email",
+      "targets": [
+        ["id=sign-in__email", "id"],
+        ["name=email", "name"],
+        ["css=#sign-in__email", "css:finder"],
+        ["xpath=//input[@id='sign-in__email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "test@example.com"
+    }, {
+      "id": "b2a347fe-27ed-4dad-aaae-91fe3912ae36",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-in__password",
+      "targets": [
+        ["id=sign-in__password", "id"],
+        ["name=password", "name"],
+        ["css=#sign-in__password", "css:finder"],
+        ["xpath=//input[@id='sign-in__password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23847387-97f8-4ce0-8ff7-539c57471cd8",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-in__password",
+      "targets": [
+        ["id=sign-in__password", "id"],
+        ["name=password", "name"],
+        ["css=#sign-in__password", "css:finder"],
+        ["xpath=//input[@id='sign-in__password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "GNM3frcJk8AWJui@"
+    }, {
+      "id": "6800c8cb-2eb4-4a90-90df-dd77a76a6d3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form__button",
+      "targets": [
+        ["css=.form__button", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eca84f5a-69b0-4871-9a32-8515c1ee39ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown__icon",
+      "targets": [
+        ["css=.dropdown__icon", "css:finder"],
+        ["xpath=//img[@alt='Avatar']", "xpath:img"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ecc4edb-2679-49f7-a054-9b18579b55e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown__link:nth-child(2)",
+      "targets": [
+        ["css=.dropdown__link:nth-child(2)", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e8e46398-5ff9-4985-b25b-4857120fcc6a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["afc2ddb6-eb7a-4174-a30b-adf4fb836781"]
+  }],
+  "urls": ["https://ta-java.devandqa.site/"],
+  "plugins": []
+}
