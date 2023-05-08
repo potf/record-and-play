@@ -1,0 +1,11 @@
+Running 'SuccessfulLogin' 22:38:02
+1.open on / OK 22:38:02
+2.setWindowSize on 1550x836 OK 22:38:02
+3.click on linkText=Sign in OK 22:38:02
+4.click on id=sign-in__email OK 22:38:03
+5.type on id=sign-in__email with value test@example.com OK 22:38:03
+6.click on id=sign-in__password OK 22:38:04
+7.type on id=sign-in__password with value GNM3frcJk8AWJui@ OK 22:38:04
+8.click on css=.form__button OK 22:38:04
+9.click on css=.dropdown__icon OK 22:38:04
+10.Trying to find css=.dropdown__link:nth-child(2)... OK 22:38:04
